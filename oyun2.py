@@ -29,7 +29,7 @@ while running: #çalışırken
     draw_text(arrow_type[sayi]+"     puan="+str(puan)+"  combo="+str(combo), text_font,(0, 0, 0),220,150) #ekrana ok puan ve comboyu yazdır
     pygame.display.flip()
     for event in pygame.event.get(): 
-        if event.type == pygame.KEYUP: #tuşa basıldığında
+        if event.type == pygame.KEYUP: #tuşu algıla
             if event.key == pygame.K_LEFT:
                 x = "a"
             elif event.key == pygame.K_RIGHT:
